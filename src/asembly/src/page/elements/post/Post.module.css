@@ -1,0 +1,16 @@
+.Post{
+    background-color: #121414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 654px;
+    height: 150px;
+
+    border-radius: 60px;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

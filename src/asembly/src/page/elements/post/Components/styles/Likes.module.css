@@ -1,0 +1,7 @@
+.Likes{
+    display: flex;
+}
+
+.Likes svg :hover{
+    cursor: pointer;
+}
