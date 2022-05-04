@@ -1,0 +1,25 @@
+.Submit{
+    
+}
+
+.Submit button{
+    border: none;
+    border-radius: 16px;
+
+    background-color: #7289DA;
+    color: white;
+
+    width: 215px;
+    height: 47px;
+
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Submit button:hover{
+    cursor: pointer;
+
+    transition: .7s;
+    opacity: .7;
+}

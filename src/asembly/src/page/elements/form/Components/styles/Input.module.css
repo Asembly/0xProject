@@ -1,0 +1,23 @@
+.Input{
+    padding-bottom: 18px;
+}
+
+.Input input{
+    border: none;
+    outline: none;
+    outline-offset: none;
+
+    background-color:#F6F5F0;
+    color:#94938d;
+
+    width: 215px;
+    height: 47px;
+
+    border-radius: 16px;
+
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+    text-align: center;
+}

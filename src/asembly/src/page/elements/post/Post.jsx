@@ -11,9 +11,18 @@ class Post extends React.Component{
     render(){
         return(
             <div className={style.Post}>
+                <div className={style.element}>
                     <Likes likes={this.props.likes}/>
+                </div>
+                
+                <p  className={style.item}>
                     {this.props.text}
-                    <Avatar avatar={this.props.avatar} likes={this.props.likes}/>
+                </p>
+                
+
+                <div className={style.element}>
+                    <Avatar avatar={this.props.avatar} likes={this.props.likes}/> 
+                </div>
             </div>
         )
     }
